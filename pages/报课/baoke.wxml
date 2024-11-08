@@ -1,0 +1,9 @@
+<!--pages/报课/baoke.wxml-->
+<!-- report-course.wxml -->
+<view class="container">
+    <input placeholder="请输入姓名" bindinput="inputName" />
+    <picker mode="selector" range="{{timeRange}}" bindchange="selectTime">
+        <view>选择报课时间：{{selectedTime}}</view>
+    </picker>
+    <button bindtap="submitForm">提交</button>
+</view>

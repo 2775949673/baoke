@@ -1,0 +1,47 @@
+<!--pages/index/index.wxml-->
+<view id = "001">示例一</view>
+
+<view class="manue">
+  <image src="/static/fzd-fl.jpg" ></image>
+  <image src="/static/fzd-fl.jpg" ></image>
+  <image src="/static/fzd-fl.jpg" ></image>
+  <image src="/static/fzd-fl.jpg" ></image>
+
+</view>
+
+<view id = "002">示例二</view>
+
+<view class="manue2">
+  <view class="item">
+    <image src="/static/zjk-cs.jpg"></image>
+    <text>底板</text>
+  </view>
+  <view class="item">
+    <image src="/static/zjk-cs.jpg"></image>
+    <text>底板</text>
+  </view>
+  <view class="item">
+    <image src="/static/zjk-cs.jpg"></image>
+    <text>底板</text>
+  </view>
+  <view class="item">
+    <image src="/static/zjk-cs.jpg"></image>
+    <text>底板</text>
+  </view>
+  
+</view>
+
+
+
+<!-- optimized-navigation.wxml -->
+<view class="container">
+    <view class="box">
+        <navigator url="/pages/报课/baoke" class="link">学员报课</navigator>
+    </view>
+    <view class="box">
+        <navigator url="/pages/报课/baoke" class="link">新学员试课预约</navigator>
+    </view>
+</view>
+
+
+

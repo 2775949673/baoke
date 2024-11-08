@@ -1,0 +1,97 @@
+/* pages/logs/homes.wxss */
+.wenzi0{
+  font-size: 60rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.indented-text {
+  text-indent: 2em; /* 设置首行缩进为2个字符宽度 */
+}
+.wenzi1{
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wenzi0, .wenzi1 {
+  margin-bottom:50rpx; /* 添加底部间距 */
+  margin-top: 50rpx;
+}
+
+
+
+/* coach-introduction.wxss */
+
+.coach-intro {
+  display: flex;
+  align-items: center;
+  padding: 20rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 5rpx;
+}
+
+.coach-image {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+}
+
+.coach-details {
+  flex: 1;
+}
+
+.coach-name {
+  font-weight: bold;
+  font-size: 32rpx;
+  margin-bottom: 10rpx;
+}
+
+.coach-description {
+  font-size: 28rpx;
+  color: #666;
+}
+
+
+/* student-gallery.wxss */
+
+.swiper-outer {
+  width: 100%;
+  height: 300rpx; /* 设置合适的高度 */
+}
+
+.swiper-inner {
+  height: 100%;
+}
+
+.gallery-row {
+  display: flex;
+  justify-content: space-between; /* 调整为 space-between */
+  align-items: center;
+  height: 100%;
+}
+
+.student-image {
+  width: calc(50% - 15rpx); /* 设置每张图片宽度为一半减去间隙 */
+  height: 180rpx; /* 设置合适的高度 */
+  border: 1rpx solid rgb(255, 255, 255); /* 添加边框样式 */
+  border-radius: 5rpx; /* 添加圆角 */
+  margin: 0 15rpx; /* 设置图片之间的间距 */
+}
+
+/* honor-gallery.wxss */
+.honor-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+honor-gallery image {
+  width: 600rpx; /* 设置图片宽度 */
+  height: 600rpx; /* 设置图片高度 */
+  margin: 20rpx; /* 设置图片间距 */
+}

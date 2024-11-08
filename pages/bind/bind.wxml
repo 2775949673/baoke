@@ -1,0 +1,14 @@
+<!--pages/bind/bind.wxml-->
+<text>数据绑定</text>
+<view>数据：{{massage}}</view>
+
+<button bind:tap="changedata">点击修改数据</button>
+
+<view>当前用户名：{{names}}</view>
+<view>当前头像：
+  <image src="{{path}}" style="height: 200rpx;width: 200rpx;"></image>
+
+</view>
+<view bind:tap="getUserName">获取当前用户名和头像</view>
+
+<button open-type="getUserInfo" bindgetuserinfo="xxx">获取信息button</button>

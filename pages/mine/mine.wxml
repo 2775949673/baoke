@@ -1,0 +1,7 @@
+<!--pages/mine/mine.wxml-->
+<view>当前用户名：{{names}}</view>
+<view>当前头像：
+  <image src="{{path}}" style="height: 200rpx;width: 200rpx;"></image>
+</view>
+
+<button open-type="getUserInfo" bindgetuserinfo="xxx">（点击登录）获取信息button</button>

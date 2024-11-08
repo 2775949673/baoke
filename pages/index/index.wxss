@@ -1,0 +1,55 @@
+/* pages/index/index.wxss */
+.c1{
+  color: red;
+}
+image{
+  /*整个页面为750rpx*/
+  width: 100rpx;
+  height: 100rpx;
+  /*圆角边框展示*/
+  border-radius: 50rpx ;
+}
+.manue{
+  /*flex布局*/
+  display: flex;
+  /*规定主轴方向 row与column*/
+  flex-direction: row;
+  /*主轴方向布局center/flex-start..flex-end/space-around..space-between*/
+  justify-content: space-around;
+  /*副轴方向如何布局*/
+  align-items: center;
+}
+.manue2{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.manue2 .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+/* optimized-navigation.wxss */
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  width: 300rpx;
+  height: 300rpx;
+  border: 1rpx solid #ccc; /* 添加边框样式 */
+  border-radius: 40rpx; /* 设置边框圆角 */
+  overflow: hidden; /* 避免内容溢出圆角边框 */
+  background-color: #3498db;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}

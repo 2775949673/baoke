@@ -1,0 +1,63 @@
+<!--pages/logs/homes.wxml-->
+<view class="wenzi0 border-bottom">宁武乒乓球训练营欢迎您</view>
+
+
+<view class="indented-text">
+    <text>宁武县乒乓球训练营是我县目前规模最大，教学设施最好的青少年校外培训基地，为推动乒乓球发展做出巨大贡献。新学期宁武乒乓球训练营将本着＂一如既往＂，追求卓越＂的一贯宗旨，以确保优质的训练质量，为小朋友们服务。让他们体会国球的乐趣，在紧张的文化学习中，精神得到放松。</text>
+</view>
+
+<view class="wenzi1 border-top">教练风采</view>
+<view>
+
+  <view class="coach-intro">
+      <image class="coach-image" src="/static/001.jpg"></image>
+      <view class="coach-details">
+          <view class="coach-name">阳教练</view>
+          <view class="coach-description">男，擅长右手横拍两面弧圈马龙打法，曾被授予乒乓球项目中华人民共和国级裁判员证书，教练员培训资格证，2011-2017年多次获得宁武县职工乒男子比赛前三名，2018-2023年荣获得县乒乓球比赛职工组冠军，并多次代表经贸工委获得团体冠军。2023年山西省运动会男子团体第六名。</view>
+      </view>
+  </view>
+  <view class="coach-intro">
+      <image class="coach-image" src="/static/001.jpg"></image>
+      <view class="coach-details">
+          <view class="coach-name">阳教练</view>
+          <view class="coach-description">男，擅长右手横拍两面弧圈马龙打法，曾被授予乒乓球项目中华人民共和国级裁判员证书，教练员培训资格证，2011-2017年多次获得宁武县职工乒男子比赛前三名，2018-2023年荣获得县乒乓球比赛职工组冠军，并多次代表经贸工委获得团体冠军。2023年山西省运动会男子团体第六名。</view>
+      </view>
+  </view>
+  <view class="coach-intro">
+      <image class="coach-image" src="/static/001.jpg"></image>
+      <view class="coach-details">
+          <view class="coach-name">阳教练</view>
+          <view class="coach-description">男，擅长右手横拍两面弧圈马龙打法，曾被授予乒乓球项目中华人民共和国级裁判员证书，教练员培训资格证，2011-2017年多次获得宁武县职工乒男子比赛前三名，2018-2023年荣获得县乒乓球比赛职工组冠军，并多次代表经贸工委获得团体冠军。2023年山西省运动会男子团体第六名。</view>
+      </view>
+  </view>
+
+
+</view>
+
+<view class="wenzi1 border-top">学员风采</view>
+
+<!-- student-gallery.wxml -->
+<view class="swiper-outer">
+  <swiper class="swiper-inner" indicator-dots="{{false}}" circular autoplay vertical>
+    <swiper-item>
+      <view class="gallery-row">
+        <image class="student-image" src="/static/001.jpg"></image>
+        <image class="student-image" src="/static/002.jpg"></image>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="gallery-row">
+        <image class="student-image" src="/static/fzd-fl.jpg"></image>
+        <image class="student-image" src="/static/zjk-cs.jpg"></image>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class="wenzi1 border-top">明天会更好</view>
+<!-- honor-gallery.wxml -->
+<view class="honor-gallery">
+    <image src="/static/fzd-fl.jpg" mode="aspectFill"></image>
+    <image src="/static/fzd-fl.jpg" mode="aspectFill"></image>
+    <image src="/static/fzd-fl.jpg" mode="aspectFill"></image>
+</view>
